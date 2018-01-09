@@ -1,0 +1,95 @@
+html {
+	background: black;
+	color: white;
+}
+
+.light-purple {
+	color: #ffaaff;
+}
+
+p {
+	line-height: 2rem;
+}
+
+nav .brand-logo {
+	padding: 5px;
+}
+
+.sidenav li.logo > a:hover {
+
+	background: transparent;
+}
+
+object {
+	display: inline-block;
+	height: 100%;
+	pointer-events: none;
+}
+
+nav ul li.active {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+section#portfolio img {
+	width: 100%;
+	border: 10px solid #333;
+	margin-bottom: 2px;
+	margin-top: 10px;
+	filter: grayscale(1) brightness(.5);
+	transition: filter 300ms ease, border 300ms ease, margin 300ms ease;
+}
+section#portfolio img:hover {
+	border: 2px solid #333;
+	margin-bottom: 10px;
+	filter: grayscale(0) brightness(1);
+}
+
+.sidenav-trigger {
+	color: #990099;
+}
+
+footer.page-footer {
+	padding: 0;
+}
+
+section#about-me p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section {
+	padding: 20px 0;
+}
+
+section:nth-child(even) {
+	background: rgba(255,255,255,0.1);
+}
+
+li.logo {
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 110px;
+}
+
+#home img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+
+#home h1 {
+	font-size: 2.5rem;
+}
+
+#home h2 {
+	font-size: 1.3rem;
+}
+
+#home h3 {
+	font-size: 1.1rem;
+}
+
+a .light-purple, a.light-purple  {
+	text-decoration: underline;
+}
