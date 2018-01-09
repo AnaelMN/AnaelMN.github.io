@@ -1,10 +1,27 @@
 html {
-	background: black;
+	background-color: black;
 	color: white;
+	background-image: url(../images/adn.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+body {
+	background: rgba(0,0,0,.5);
 }
 
 .light-purple {
 	color: #ffaaff;
+}
+
+.light-purple-bg {
+	background-color: #ffaaff;
+}
+
+.determinate.dark-purple-bg {
+	background-color: #990099;
 }
 
 p {
@@ -93,3 +110,4 @@ li.logo {
 a .light-purple, a.light-purple  {
 	text-decoration: underline;
 }
+
